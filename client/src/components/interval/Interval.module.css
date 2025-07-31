@@ -1,0 +1,108 @@
+.container {
+  position: relative;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* вот это важно */
+  text-align: center;
+}
+.interval_container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0;
+  background-color: #f6f7f9;
+  align-items: center;
+}
+
+.interval_text {
+  max-width: 670px;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.interval_title {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #24292e;
+  margin-bottom: 16px;
+}
+
+.highlight {
+  color: #02817c;
+  font-weight: 600;
+}
+
+.interval_description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  color: #24292e;
+  margin-bottom: 24px;
+}
+
+.interval_advantage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  max-width: 670px;
+}
+
+.interval_advantage_container {
+  /* position: relative; */
+  padding: 12.5px 16px;
+  background-color: white;
+  border-radius: 34px;
+  box-shadow:
+    0px 21px 6px 0px rgba(199, 199, 199, 0%),
+    0px 14px 5px 0px rgba(199, 199, 199, 1%),
+    0px 8px 5px 0px rgba(199, 199, 199, 5%),
+    0px 3px 3px 0px rgba(199, 199, 199, 9%),
+    0px 1px 2px 0px rgba(199, 199, 199, 10%);
+}
+.left_ellipse {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8%;
+  width: 60px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.right_ellipse {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8%;
+  width: 60px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.interval_advantage_container img {
+  padding-right: 8px;
+}
+
+.interval_advantage_container span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #24292e;
+}

@@ -1,0 +1,80 @@
+.footer__container {
+  padding: 40px 60px;
+  background-color: black;
+}
+
+/* .footer__container__up {
+} */
+
+.Logo {
+  float: left;
+  overflow: hidden;
+  align-items: center;
+}
+
+.footer__container__up img {
+  margin-left: 8px;
+  width: 64px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.footer__container__up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu__bar_up span {
+  color: #e5e7ea;
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+/* убираем отступ у последнего элемента */
+/* .footer__menu__bar span:last-child {
+  margin-right: 0;
+} */
+
+.footer__line {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer__container__down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.footer__menu__bar_down {
+  float: left;
+  align-items: center;
+}
+
+.footer__menu__bar_down span {
+  color: #e5e7ea;
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.footer__container__social__icons {
+  float: right;
+  align-items: center;
+}
+
+.footer__container__social__icons img {
+  margin-right: 16px;
+}
+
+.footer__container__social__icons img:last-child {
+  margin-right: 0px;
+}
