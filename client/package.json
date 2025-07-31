@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alekssawa.github.io/client/",
+  "homepage": "https://alekssawa.github.io/N2L/client/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
