@@ -1,16 +1,18 @@
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Interval from "./components/interval/Interval";
-import Promo from "./components/promo/Promo";
-import Promo2 from "./components/promo2/Promo2";
+import PromoSection1 from "./components/promoSection1/PromoSection1";
+import PromoSection2 from "./components/promoSection2/PromoSection2";
+import PromoSection3 from "./components/promoSection3/PromoSection3";
 
 function App() {
   return (
     <>
       <Header />
-      <Promo />
+      <PromoSection1 />
       <Interval />
-      <Promo2 />
+      <PromoSection2 />
+      <PromoSection3 />
       <Footer />
     </>
   );

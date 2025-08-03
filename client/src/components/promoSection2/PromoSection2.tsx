@@ -2,7 +2,7 @@ import promo_arrow_rightUp from "./../../assets/icons/promo_arrow_rightUp.svg";
 import promo_2_cart_image_1 from "./../../assets/img/promo_2_cart_image_1.png";
 import promo_2_cart_image_2 from "./../../assets/img/promo_2_cart_image_2.png";
 
-import styles from "./Promo2.module.css";
+import styles from "./PromoSection2.module.css";
 
 const Promo2 = () => {
   return (
