@@ -1,0 +1,196 @@
+.realm_section {
+  padding: 100px 24px;
+  background-color: #ffffff;
+  width: 100%;
+  
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 108px;
+  padding-right: 189px;
+  /* центрирует */
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 247px;
+  /* overflow: hidden; */
+}
+
+.realm_header {
+  position: relative;
+  z-index: 1;
+  /* margin: 0 auto; */
+  text-align: start;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #24292e;
+  margin-bottom: 16px;
+  /* max-width: 800px; */
+}
+
+.highlight {
+  color: #02817c;
+}
+
+.description {
+  /* margin: 0 auto 32px auto; */
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #24292e;
+  max-width: 474px;
+}
+
+.realm_advantage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.realm_advantage_container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 12.5px 16px;
+  background-color: #F6F7F9;
+  border-radius: 34px;
+  /* box-shadow:
+    0px 21px 6px 0px rgba(199, 199, 199, 0%),
+    0px 14px 5px 0px rgba(199, 199, 199, 1%),
+    0px 8px 5px 0px rgba(199, 199, 199, 5%),
+    0px 3px 3px 0px rgba(199, 199, 199, 9%),
+    0px 1px 2px 0px rgba(199, 199, 199, 10%); */
+}
+
+.realm_advantage_container img {
+  padding-right: 8px;
+}
+
+.realm_advantage_container span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #24292E;
+}
+
+.realm_button {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  margin-top: 74px;
+  padding: 18px 22px;
+  background-color: #00a19b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.realm_button:hover {
+  background-color: #01716d;
+}
+
+.realm_button img {
+  width: 24px;
+  height: auto;
+}
+
+.realm_picture_container {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.realm_picture_container>img {
+  position: relative;
+  z-index: 3;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 560.24px;
+  height: 802.15px;
+  top: -137px;
+  left: 625.42px;
+  z-index: 1;
+  pointer-events: none;
+  clip-path: inset(0px 0px 165px 0px);
+  /* background-color: red; */
+}
+
+.ellipse2 {
+  position: absolute;
+  z-index: 2;
+  top: 230px;
+  left: 185px;
+  pointer-events: none;
+}
+
+.ellipse3 {
+  position: absolute;
+  z-index: 1;
+  top: 256px;
+  left: 83px;
+  pointer-events: none;
+}
+
+.promo_Ellipse_004 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: -100px;
+  left: -6%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.promo_Ellipse_005 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: -100px;
+  right: -6%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.promo_Ellipse_006 {
+  position: absolute;
+  width: 21.5%;
+  height: auto;
+  top: -100px;
+  left: -6%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.promo_Ellipse_007 {
+  position: absolute;
+  width: 21.5%;
+  height: auto;
+  top: -100px;
+  right: -6%;
+  z-index: 1;
+  pointer-events: none;
+}

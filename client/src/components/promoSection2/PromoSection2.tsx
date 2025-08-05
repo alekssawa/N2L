@@ -4,7 +4,7 @@ import promo_2_cart_image_2 from "./../../assets/img/promo_2_cart_image_2.png";
 
 import styles from "./PromoSection2.module.css";
 
-const Promo2 = () => {
+const PromoSection2 = () => {
   return (
     <section className={styles.ecosystem_section}>
       <div className={styles.container}>
@@ -52,4 +52,4 @@ const Promo2 = () => {
   );
 };
 
-export default Promo2;
+export default PromoSection2;

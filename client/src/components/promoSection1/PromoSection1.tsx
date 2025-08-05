@@ -2,7 +2,7 @@ import Promo_Image_001 from "./../../assets/img/Promo_Image_001.png";
 import promo_arrow_right from "./../../assets/icons/promo_arrow_right.svg";
 import styles from "./../../components/promoSection1/PromoSection1.module.css";
 
-const Promo = () => {
+const PromoSection = () => {
   return (
     <section className={styles.promo_container}>
       <div className={styles.container}>
@@ -49,4 +49,4 @@ const Promo = () => {
   );
 };
 
-export default Promo;
+export default PromoSection;

@@ -1,0 +1,44 @@
+.realm_section {
+  padding: 100px 24px;
+  background-color: #F6F7F9;
+  width: 100%;
+  
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 108px;
+  padding-right: 189px;
+  /* центрирует */
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 247px;
+  /* overflow: hidden; */
+}
+
+.realm_header {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #24292e;
+  margin-bottom: 16px;
+  /* max-width: 800px; */
+}
+
+.highlight {
+  color: #02817c;
+}
+

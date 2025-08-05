@@ -10,15 +10,15 @@ const PromoSection3 = () => {
   return (
     <section className={styles.membership_section}>
       <div className={styles.container}>
-              <img className={styles.promo_Ellipse_003} src={Promo_Ellipse_003}></img>
-      <img
-        className={styles.promo_Decorative_Element_001}
-        src={Promo_Decorative_Element_001}
-      ></img>
-      <img
-        className={styles.promo_Decorative_Element_002}
-        src={Promo_Decorative_Element_002}
-      ></img>
+        <img className={styles.promo_Ellipse_003} src={Promo_Ellipse_003}></img>
+        <img
+          className={styles.promo_Decorative_Element_001}
+          src={Promo_Decorative_Element_001}
+        ></img>
+        <img
+          className={styles.promo_Decorative_Element_002}
+          src={Promo_Decorative_Element_002}
+        ></img>
         <div className={styles.membership_header}>
           <h2 className={styles.title}>
             <span className={styles.highlight}>Membership</span> Tiers

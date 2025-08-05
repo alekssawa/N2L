@@ -1,256 +1,249 @@
 .membership_section {
-    padding: 100px 24px
-        /*calc(79.5px * 3)*/
-    ;
-    background-color: #F6F7F9;
-    width: 100%;
+  padding: 100px 24px /*calc(79.5px * 3)*/;
+  background-color: #f6f7f9;
+  width: 100%;
 }
 
 .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    /* центрирует */
-    width: 100%;
-    position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* центрирует */
+  width: 100%;
+  position: relative;
 }
 
 .membership_header {
-    position: relative;
-    z-index: 1;
-    margin: 0 auto;
-    text-align: center;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .title {
-    font-family: "Inter", sans-serif;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #24292e;
-    margin-bottom: 16px;
-    /* max-width: 800px; */
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #24292e;
+  margin-bottom: 16px;
+  /* max-width: 800px; */
 }
 
 .highlight {
-    color: #02817c;
+  color: #02817c;
 }
 
 .description {
-    margin: 0 auto 32px auto;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #24292e;
-    max-width: 670px;
+  margin: 0 auto 32px auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #24292e;
+  max-width: 670px;
 }
 
 .row {
-    display: flex;
-    position: relative;
-    z-index: 2;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 
 .blockShadow {
-    flex: 1 1;
-    position: relative;
-    overflow: hidden;
-    width: 305px;
-    max-width: 305px;
-    height: 360px;
-    background-color: #CED2D6;
-    /* background-color: white; */
-    padding-top: 15px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 24px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
-    box-shadow:
-        0px 21px 6px 0px rgba(199, 199, 199, 0%),
-        0px 14px 5px 0px rgba(199, 199, 199, 1%),
-        0px 8px 5px 0px rgba(199, 199, 199, 5%),
-        0px 3px 3px 0px rgba(199, 199, 199, 9%),
-        0px 1px 2px 0px rgba(199, 199, 199, 10%);
+  flex: 1 1;
+  position: relative;
+  overflow: hidden;
+  width: 305px;
+  max-width: 305px;
+  height: 360px;
+  background-color: #ced2d6;
+  /* background-color: white; */
+  padding-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 24px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+  box-shadow:
+    0px 21px 6px 0px rgba(199, 199, 199, 0%),
+    0px 14px 5px 0px rgba(199, 199, 199, 1%),
+    0px 8px 5px 0px rgba(199, 199, 199, 5%),
+    0px 3px 3px 0px rgba(199, 199, 199, 9%),
+    0px 1px 2px 0px rgba(199, 199, 199, 10%);
 }
 
 .blockShadow::before {
-    z-index: 1;
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -5px;
-    border-radius: 20px;
-    height: 370px;
-    width: 315px;
-    background-color: #ffffff;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  border-radius: 20px;
+  height: 370px;
+  width: 315px;
+  background-color: #ffffff;
 }
 
 .block {
-    z-index: 2;
-    position: relative;
-    height: 370px;
-    padding: 24px;
+  z-index: 2;
+  position: relative;
+  height: 370px;
+  padding: 24px;
 }
 
 .blockShadowWide {
-    flex: 1 1;
-    position: relative;
-    overflow: hidden;
-    width: 413.33px;
-    max-width: 413.33px;
-    height: 360px;
-    background-color: #CED2D6;
-    /* background-color: white; */
-    padding-top: 15px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 24px;
-    box-shadow:
-        0px 21px 6px 0px rgba(199, 199, 199, 0%),
-        0px 14px 5px 0px rgba(199, 199, 199, 1%),
-        0px 8px 5px 0px rgba(199, 199, 199, 5%),
-        0px 3px 3px 0px rgba(199, 199, 199, 9%),
-        0px 1px 2px 0px rgba(199, 199, 199, 10%);
+  flex: 1 1;
+  position: relative;
+  overflow: hidden;
+  width: 413.33px;
+  max-width: 413.33px;
+  height: 360px;
+  background-color: #ced2d6;
+  /* background-color: white; */
+  padding-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 24px;
+  box-shadow:
+    0px 21px 6px 0px rgba(199, 199, 199, 0%),
+    0px 14px 5px 0px rgba(199, 199, 199, 1%),
+    0px 8px 5px 0px rgba(199, 199, 199, 5%),
+    0px 3px 3px 0px rgba(199, 199, 199, 9%),
+    0px 1px 2px 0px rgba(199, 199, 199, 10%);
 }
 
 .blockShadowWide::before {
-    z-index: 1;
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: -5px;
-    border-radius: 20px;
-    height: 370px;
-    width: 423.33px;
-    background-color: #ffffff;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  border-radius: 20px;
+  height: 370px;
+  width: 423.33px;
+  background-color: #ffffff;
 }
 
 .blockWide {
-    z-index: 2;
-    position: relative;
-    height: 370px;
-    padding: 24px;
+  z-index: 2;
+  position: relative;
+  height: 370px;
+  padding: 24px;
 }
-
-
-
 
 .block .title1 h3,
 .blockWide .title1 h3 {
-    text-align: start;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #24292E;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #24292e;
 }
 
 .block .title1 p,
 .blockWide .title1 p {
-    text-align: start;
-    padding-top: 8px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #596066;
+  text-align: start;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #596066;
 }
 
 .block .title2 h3,
 .blockWide .title2 h3 {
-    text-align: start;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #24292E;
+  text-align: start;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #24292e;
 }
 
 .block .title2 p .highlight,
 .blockWide .title2 p .highlight {
-    font-weight: 600;
-    color: #596066;
+  font-weight: 600;
+  color: #596066;
 }
 
 .block .title2 h3 .lowlight,
 .blockWide .title2 h3 .lowlight {
-    font-size: 12px;
-    font-weight: 400;
-    color: #676E76;
+  font-size: 12px;
+  font-weight: 400;
+  color: #676e76;
 }
 
 .block .title2 p,
 .blockWide .title2 p {
-    text-align: start;
-    padding-top: 8px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #596066;
+  text-align: start;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #596066;
 }
 
 .block .title3 h3,
 .blockWide .title3 h3 {
-    text-align: start;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.4;
-    color: #24292E;
+  text-align: start;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #24292e;
 }
 
 .block .title3 p,
 .blockWide .title3 p {
-    text-align: start;
-    padding-top: 8px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #596066;
+  text-align: start;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #596066;
 }
 
 .block .title3 img,
 .blockWide .title3 img {
-    padding-right: 8px;
+  padding-right: 8px;
 }
-
 
 .block .promoSection3_interval,
 .blockWide .promoSection3_interval {
-    padding: 16px 0;
+  padding: 16px 0;
 }
 
-
 .promo_Ellipse_003 {
-    position: absolute;
-    top: -31px;
-    /* right: 0; */
-    left: 50%;
-    transform: translateX(-50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    pointer-events: none;
+  position: absolute;
+  top: -31px;
+  /* right: 0; */
+  left: 50%;
+  transform: translateX(-50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
 }
 
 .promo_Decorative_Element_001 {
-    position: absolute;
-    top: 25%;
-    /* transform: translateY(-50%); */
-    left: -6%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    pointer-events: none;
+  position: absolute;
+  top: 25%;
+  /* transform: translateY(-50%); */
+  left: -6%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
 }
 
 .promo_Decorative_Element_002 {
-    position: absolute;
-    top: 25%;
-    right: -6%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    pointer-events: none;
+  position: absolute;
+  top: 25%;
+  right: -6%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
 }
