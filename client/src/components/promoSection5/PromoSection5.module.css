@@ -1,8 +1,7 @@
-.realm_section {
+.FAQ_section {
   padding: 100px 24px;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   width: 100%;
-  
 }
 
 .container {
@@ -10,18 +9,11 @@
   margin: 0 auto;
   padding-left: 108px;
   padding-right: 189px;
-  /* центрирует */
   width: 100%;
   position: relative;
-
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  gap: 247px;
-  /* overflow: hidden; */
 }
 
-.realm_header {
+.FAQ_header {
   position: relative;
   z-index: 1;
   margin: 0 auto;
@@ -34,7 +26,7 @@
   font-weight: 600;
   line-height: 1.4;
   color: #24292e;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   /* max-width: 800px; */
 }
 
@@ -42,3 +34,75 @@
   color: #02817c;
 }
 
+/* .FAQ_container {
+  width: 1280px;
+} */
+
+.question_container {
+  padding-bottom: 12px;
+}
+
+.FAQ_container .question {
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #24292e;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.FAQ_container .question.open {
+  border-radius: 12px 12px 0 0;
+  padding: 20px;
+  background-color: #00a19b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.FAQ_container .question:hover {
+  background-color: #e4e4e4;
+}
+
+.FAQ_container .question.open:hover {
+  background-color: #008b85;
+}
+
+.answerWrapper {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  border-radius: 0;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    border-radius 0.3s ease;
+}
+
+.answerWrapper.open {
+  max-height: 500px;
+  opacity: 1;
+  border-radius: 0 0 12px 12px;
+}
+
+.answer {
+  /* border-radius: 0 0 12px 12px ; */
+  padding: 0 20px;
+  transition: padding 0.4s ease;
+
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #24292e;
+}
+
+.answerWrapper.open .answer {
+  padding: 20px;
+}
