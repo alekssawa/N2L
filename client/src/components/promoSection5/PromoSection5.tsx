@@ -4,6 +4,31 @@ import styles from "./PromoSection5.module.css";
 
 const PromoSection5 = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  const handleQuestionClick = (index: number) => {
+    if (isAnimating) return;
+    
+    if (openIndex === index) {
+      // Закрываем текущий открытый вопрос
+      setOpenIndex(null);
+    } else {
+      if (openIndex !== null) {
+        // Сначала закрываем предыдущий вопрос
+        setIsAnimating(true);
+        setOpenIndex(null);
+        
+        // После завершения анимации закрытия, открываем новый вопрос
+        setTimeout(() => {
+          setOpenIndex(index);
+          setIsAnimating(false);
+        }, 500); // Должно совпадать с длительностью анимации
+      } else {
+        // Нет открытых вопросов - просто открываем новый
+        setOpenIndex(index);
+      }
+    }
+  };
 
   return (
     <section className={styles.FAQ_section}>
@@ -79,7 +104,7 @@ const PromoSection5 = () => {
                 className={`${styles.question} ${
                   openIndex === i ? styles.open : ""
                 }`}
-                onClick={() => setOpenIndex(openIndex === i ? null : i)}
+                onClick={() => handleQuestionClick(i)}
               >
                 {item.question}
               </h2>

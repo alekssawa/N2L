@@ -83,12 +83,17 @@
     max-height 0.5s ease,
     opacity 0.5s ease,
     border-radius 0.3s ease;
+  will-change: max-height, opacity; /* Оптимизация для браузера */
 }
 
 .answerWrapper.open {
   max-height: 500px;
   opacity: 1;
   border-radius: 0 0 12px 12px;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease 0.1s, /* Небольшая задержка для opacity */
+    border-radius 0.3s ease;
 }
 
 .answer {
