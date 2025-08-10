@@ -6,9 +6,11 @@
   padding: 0 24px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* вот это важно */
+  align-items: center;
+  /* вот это важно */
   text-align: center;
 }
+
 .interval_container {
   position: relative;
   overflow: hidden;
@@ -70,6 +72,14 @@
     0px 3px 3px 0px rgba(199, 199, 199, 9%),
     0px 1px 2px 0px rgba(199, 199, 199, 10%);
 }
+
+.interval_advantage_container span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #24292e;
+}
+
 .left_ellipse {
   position: absolute;
   top: 50%;
@@ -81,6 +91,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  user-select: none;
 }
 
 .right_ellipse {
@@ -94,6 +105,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  user-select: none;
 }
 
 .interval_advantage_container img {
@@ -105,4 +117,39 @@
   font-weight: 400;
   line-height: 1.4;
   color: #24292e;
+}
+
+@media (max-width: 480px) {
+  .right_ellipse,
+  .left_ellipse {
+    display: none;
+  }
+   .interval_container {
+    padding: 40px 16px;
+  }
+
+  .interval_title {
+    font-size: 28px; 
+    line-height: 1.3;
+  }
+  .interval_advantage_container span,
+  .interval_description {
+    font-size: 16px;
+  }
+/*
+  .promo_button {
+    width: 100%; 
+    justify-content: center; 
+    gap: 12px; 
+    padding: 14px 18px;
+    font-size: 15px;
+  }
+
+  .promo_image {
+    justify-content: center;
+  }
+
+  .promo_image img {
+    max-width: 90%;
+  } */
 }

@@ -28,7 +28,7 @@ const PromoSection3 = () => {
             values your expertise and amplifies your impact:
           </p>
         </div>
-        <div className={styles.row}>
+        <div className={styles.firstRow}>
           <div className={styles.blockShadow}>
             <div className={styles.block}>
               <div className={styles.title1}>
@@ -182,7 +182,7 @@ const PromoSection3 = () => {
             </div>
           </div>
         </div>
-        <div className={styles.row}>
+        <div className={styles.secondRow}>
           <div className={styles.blockShadowWide}>
             <div className={styles.blockWide}>
               <div className={styles.title1}>

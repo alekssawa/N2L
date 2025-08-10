@@ -10,6 +10,7 @@
   /* центрирует */
   width: 100%;
   position: relative;
+  /* padding: 0 24px; */
 }
 
 .membership_header {
@@ -42,7 +43,7 @@
   max-width: 670px;
 }
 
-.row {
+/* .row {
   display: flex;
   position: relative;
   z-index: 2;
@@ -50,17 +51,40 @@
   gap: 20px;
   flex-wrap: wrap;
   padding-bottom: 20px;
+} */
+
+.firstRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-bottom: 20px;
+  max-width: calc(305px * 4 + 20px * 3); /* примерная ширина под 4 блока и gap */
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Для второй строки — 3 колонки */
+.secondRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* padding-bottom: 20px; */
+  max-width: calc(413px * 3 + 20px * 2);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .blockShadow {
-  flex: 1 1;
+  /* flex: 1 1; */
   position: relative;
   overflow: hidden;
-  width: 305px;
+  /* width: 305px; */
+  width: 100%;
   max-width: 305px;
   height: 360px;
   background-color: #ced2d6;
-  /* background-color: white; */
   padding-top: 15px;
   text-align: center;
   font-size: 18px;
@@ -83,7 +107,8 @@
   left: -5px;
   border-radius: 20px;
   height: 370px;
-  width: 315px;
+  /* max-width: 315px; */
+  width: 102.5%;
   background-color: #ffffff;
 }
 
@@ -95,10 +120,11 @@
 }
 
 .blockShadowWide {
-  flex: 1 1;
+  /* flex: 1 1; */
   position: relative;
   overflow: hidden;
-  width: 413.33px;
+  /* width: 413.33px; */
+  width: 100%;
   max-width: 413.33px;
   height: 360px;
   background-color: #ced2d6;
@@ -124,7 +150,8 @@
   left: -5px;
   border-radius: 20px;
   height: 370px;
-  width: 423.33px;
+  /* width: 423.33px; */
+  width: 102.5%;
   background-color: #ffffff;
 }
 
@@ -225,6 +252,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  user-select: none;
 }
 
 .promo_Decorative_Element_001 {
@@ -236,6 +264,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  user-select: none;
 }
 
 .promo_Decorative_Element_002 {
@@ -246,4 +275,47 @@
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 480px) {
+  .membership_section {
+    padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .description {
+    font-size: 16px;
+    /* margin: 0 auto 32px auto; */
+  }
+
+  .firstRow,
+  .secondRow {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .secondRow {
+    max-width: calc(305px * 4 + 20px * 3);
+  }
+
+  .blockShadow {
+    max-width: 100%;
+  }
+
+  .blockShadowWide {
+    max-width: 100%;
+  }
+
+  .promo_Ellipse_003,
+  .promo_Decorative_Element_001,
+  .promo_Decorative_Element_002{
+    display: none;
+  }
+
+
 }

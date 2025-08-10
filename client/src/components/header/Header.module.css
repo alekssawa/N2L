@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: #013533;
   font-family: Arial;
+  width: 100%;
 }
 
 .Logo {
@@ -14,9 +15,11 @@
 }
 
 .Logo img {
-  width: 64px; /* подбери под нужный размер */
+  width: 64px;
+  /* подбери под нужный размер */
   height: 34px;
   object-fit: contain;
+  user-select: none;
 }
 
 /* The dropdown container */
@@ -34,8 +37,11 @@
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+  user-select: none;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -62,16 +68,19 @@
 
 /* Links inside the dropdown */
 .dropdown__content a {
-  display: flex; /* нужно для gap */
+  display: flex;
+  /* нужно для gap */
   align-items: center;
   color: black;
   padding: 12px;
   text-decoration: none;
   text-align: left;
-  gap: 8px; /* работает только с flex или grid */
+  gap: 8px;
+  /* работает только с flex или grid */
   font-weight: 400;
   font-size: 14px;
   border-radius: 8px;
+  user-select: none;
 }
 
 .dropdown__content a:not(:last-child) {
@@ -79,10 +88,12 @@
 }
 
 .dropdown__content a img {
-  width: 20px; /* подбери под нужный размер */
+  width: 20px;
+  /* подбери под нужный размер */
   height: 20px;
   object-fit: contain;
   color: #454c52;
+
 }
 
 .dropdown__content a.highlight {
@@ -106,4 +117,19 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown__content {
   display: block;
+}
+
+
+@media (max-width: 480px) {
+  .Logo {
+    padding: 8px 32px;
+  }
+
+  .dropdown {
+    padding-right: 32px;
+  }
+
+  .dropdown .dropbtn  {
+    padding: 7px 9px;
+  }
 }

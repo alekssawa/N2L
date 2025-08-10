@@ -83,7 +83,8 @@
     max-height 0.5s ease,
     opacity 0.5s ease,
     border-radius 0.3s ease;
-  will-change: max-height, opacity; /* Оптимизация для браузера */
+  will-change: max-height, opacity;
+  /* Оптимизация для браузера */
 }
 
 .answerWrapper.open {
@@ -92,7 +93,8 @@
   border-radius: 0 0 12px 12px;
   transition:
     max-height 0.5s ease,
-    opacity 0.5s ease 0.1s, /* Небольшая задержка для opacity */
+    opacity 0.5s ease 0.1s,
+    /* Небольшая задержка для opacity */
     border-radius 0.3s ease;
 }
 
@@ -110,4 +112,26 @@
 
 .answerWrapper.open .answer {
   padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .FAQ_section {
+    padding: 40px 16px;
+  }
+
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
+  .title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
 }
