@@ -93,7 +93,6 @@
   height: 20px;
   object-fit: contain;
   color: #454c52;
-
 }
 
 .dropdown__content a.highlight {
@@ -119,7 +118,6 @@
   display: block;
 }
 
-
 @media (max-width: 480px) {
   .Logo {
     padding: 8px 32px;
@@ -129,7 +127,7 @@
     padding-right: 32px;
   }
 
-  .dropdown .dropbtn  {
+  .dropdown .dropbtn {
     padding: 7px 9px;
   }
 }

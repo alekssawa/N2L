@@ -58,7 +58,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding-bottom: 20px;
-  max-width: calc(305px * 4 + 20px * 3); /* примерная ширина под 4 блока и gap */
+  max-width: calc(
+    305px * 4 + 20px * 3
+  ); /* примерная ширина под 4 блока и gap */
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -313,9 +315,7 @@
 
   .promo_Ellipse_003,
   .promo_Decorative_Element_001,
-  .promo_Decorative_Element_002{
+  .promo_Decorative_Element_002 {
     display: none;
   }
-
-
 }

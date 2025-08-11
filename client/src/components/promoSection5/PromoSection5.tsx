@@ -8,7 +8,7 @@ const PromoSection5 = () => {
 
   const handleQuestionClick = (index: number) => {
     if (isAnimating) return;
-    
+
     if (openIndex === index) {
       // Закрываем текущий открытый вопрос
       setOpenIndex(null);
@@ -17,7 +17,7 @@ const PromoSection5 = () => {
         // Сначала закрываем предыдущий вопрос
         setIsAnimating(true);
         setOpenIndex(null);
-        
+
         // После завершения анимации закрытия, открываем новый вопрос
         setTimeout(() => {
           setOpenIndex(index);
@@ -97,7 +97,7 @@ const PromoSection5 = () => {
                 "10. How do you involve volunteers in your charity initiatives?",
               answer:
                 "We provide volunteers with training, meaningful roles, and the opportunity to directly engage with communities. Their skills and passion are essential to the success of our programs.",
-            }
+            },
           ].map((item, i) => (
             <div key={i} className={styles.question_container}>
               <h2
