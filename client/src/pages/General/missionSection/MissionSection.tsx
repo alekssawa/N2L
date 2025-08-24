@@ -1,10 +1,10 @@
-import styles from "./PromoSection3.module.css";
+import styles from "./MissionSection.module.css";
 
-import promoSection3_interval from "./../../assets/icons/promoSection3_interval.svg";
-import promoSection3_Check from "./../../assets/icons/promoSection3_Check.svg";
-import Promo_Decorative_Element_001 from "./../../assets/icons/Promo_Decorative_Element_001.svg";
-import Promo_Decorative_Element_002 from "./../../assets/icons/Promo_Decorative_Element_002.svg";
-import Promo_Ellipse_003 from "./../../assets/icons/Promo_Ellipse_003.svg";
+import promoSection3_interval from "./../../../assets/icons/promoSection3_interval.svg";
+import promoSection3_Check from "./../../../assets/icons/promoSection3_Check.svg";
+import Promo_Decorative_Element_001 from "./../../../assets/icons/Promo_Decorative_Element_001.svg";
+import Promo_Decorative_Element_002 from "./../../../assets/icons/Promo_Decorative_Element_002.svg";
+import Promo_Ellipse_003 from "./../../../assets/icons/Promo_Ellipse_003.svg";
 
 const PromoSection3 = () => {
   return (

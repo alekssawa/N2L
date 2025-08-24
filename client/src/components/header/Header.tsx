@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import styles from "./Header.module.css";
 
 import Logo from "./../../assets/icons/Logo.svg";
@@ -19,22 +21,22 @@ const Header = () => {
             <img src={MenuIcon} />
           </button>
           <div className={styles.dropdown__content}>
-            <a href="#">
+            <Link to="/N2L/">
               <img src={General_Icon} />
               General
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/N2L/Algorithm">
               <img src={Algorithm_Icon} />
               Algorithm
-            </a>
-            <a className={styles.highlight} href="#">
+            </Link>
+            <Link className={styles.highlight} to="/N2L/Shop">
               <img src={Shop_Icon} />
               Shop (coming soon)
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/N2L/Contacts">
               <img src={Contact_Icon} />
               Contact us
-            </a>
+            </Link>
           </div>
         </div>
       </div>

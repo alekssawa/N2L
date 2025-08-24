@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import styles from "./PromoSection5.module.css";
+import styles from "./CallToActionSection.module.css";
 
 const PromoSection5 = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);

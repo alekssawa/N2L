@@ -1,9 +1,9 @@
 import styles from "./Interval.module.css";
-import Interval_Card from "./../../assets/icons/Interval_Card.svg";
-import Interval_Graph from "./../../assets/icons/Interval_Graph.svg";
-import Interval_Handshake from "./../../assets/icons/Interval_Handshake.svg";
-import Promo_Ellipse_001 from "./../../assets/icons/Promo_Ellipse_001.svg";
-import Promo_Ellipse_002 from "./../../assets/icons/Promo_Ellipse_002.svg";
+import Interval_Card from "./../../../assets/icons/Interval_Card.svg";
+import Interval_Graph from "./../../../assets/icons/Interval_Graph.svg";
+import Interval_Handshake from "./../../../assets/icons/Interval_Handshake.svg";
+import Promo_Ellipse_001 from "./../../../assets/icons/Promo_Ellipse_001.svg";
+import Promo_Ellipse_002 from "./../../../assets/icons/Promo_Ellipse_002.svg";
 
 const Interval = () => {
   return (

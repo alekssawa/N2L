@@ -1,6 +1,6 @@
-import Promo_Image_001 from "./../../assets/img/Promo_Image_001.png";
-import promo_arrow_right from "./../../assets/icons/promo_arrow_right.svg";
-import styles from "./../../components/promoSection1/PromoSection1.module.css";
+import Promo_Image_001 from "./../../../assets/img/Promo_Image_001.png";
+import promo_arrow_right from "./../../../assets/icons/promo_arrow_right.svg";
+import styles from "./HeroSection.module.css";
 
 const PromoSection = () => {
   return (

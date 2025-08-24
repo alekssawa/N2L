@@ -1,21 +1,21 @@
-import styles from "./PromoSection4.module.css";
+import styles from "./CommunitySection.module.css";
 
-import Realm_Icon_001 from "./../../assets/icons/Realm_Icon_001.svg";
-import Realm_Icon_002 from "./../../assets/icons/Realm_Icon_002.svg";
-import Realm_Icon_003 from "./../../assets/icons/Realm_Icon_003.svg";
+import Realm_Icon_001 from "./../../../assets/icons/Realm_Icon_001.svg";
+import Realm_Icon_002 from "./../../../assets/icons/Realm_Icon_002.svg";
+import Realm_Icon_003 from "./../../../assets/icons/Realm_Icon_003.svg";
 
-import promo_arrow_right from "./../../assets/icons/promo_arrow_right.svg";
+import promo_arrow_right from "./../../../assets/icons/promo_arrow_right.svg";
 
-import Promo_Image_004 from "./../../assets/icons/Promo_Image_004.svg";
+import Promo_Image_004 from "./../../../assets/icons/Promo_Image_004.svg";
 
-import Promo_Rily_Ellipse_001 from "./../../assets/icons/Promo_Rily_Ellipse_001.svg";
-import Promo_Rily_Ellipse_002 from "./../../assets/icons/Promo_Rily_Ellipse_002.svg";
-import Promo_Rily_Ellipse_003 from "./../../assets/icons/Promo_Rily_Ellipse_003.svg";
+import Promo_Rily_Ellipse_001 from "./../../../assets/icons/Promo_Rily_Ellipse_001.svg";
+import Promo_Rily_Ellipse_002 from "./../../../assets/icons/Promo_Rily_Ellipse_002.svg";
+import Promo_Rily_Ellipse_003 from "./../../../assets/icons/Promo_Rily_Ellipse_003.svg";
 
-import Promo_Ellipse_004 from "./../../assets/icons/Promo_Ellipse_004.svg";
-import Promo_Ellipse_005 from "./../../assets/icons/Promo_Ellipse_005.svg";
-import Promo_Ellipse_006 from "./../../assets/icons/Promo_Ellipse_006.svg";
-import Promo_Ellipse_007 from "./../../assets/icons/Promo_Ellipse_007.svg";
+import Promo_Ellipse_004 from "./../../../assets/icons/Promo_Ellipse_004.svg";
+import Promo_Ellipse_005 from "./../../../assets/icons/Promo_Ellipse_005.svg";
+import Promo_Ellipse_006 from "./../../../assets/icons/Promo_Ellipse_006.svg";
+import Promo_Ellipse_007 from "./../../../assets/icons/Promo_Ellipse_007.svg";
 
 const PromoSection4 = () => {
   return (
