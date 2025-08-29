@@ -28,7 +28,6 @@ const GiftShopSection = () => {
             className={styles.ellipse3}
             src={Shop_Background_Ellipse_Right_001}
           />
-          
         </div>
         <div className={styles.ecosystem_content}>
           <div className={styles.ecosystem_cards}>
