@@ -63,9 +63,9 @@
 .contact_form input,
 .contact_form textarea {
   padding: 14px 16px;
-  border: 1px solid #E5E7EA;
+  border: 1px solid #e5e7ea;
   border-radius: 8px;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   color: #7d7b74;
   font-family: "Rethink Sans", sans-serif;
   font-size: 14px;
@@ -76,7 +76,7 @@
 
 .contact_form input::placeholder,
 .contact_form textarea::placeholder {
-  color: #9EA5AD;
+  color: #9ea5ad;
 }
 
 .contact_form textarea {
@@ -90,7 +90,8 @@
 .promo_button {
   display: flex;
   align-items: center;
-  gap: 364px;
+  /* gap: 364px; */
+  justify-content: space-between;
   margin-top: 16px;
   padding: 18px 22px;
   background-color: #00a19b;
@@ -112,7 +113,6 @@
   width: auto;
   height: auto;
 }
-
 
 .promo_image img {
   max-width: 100%;
@@ -151,7 +151,7 @@
 
   .promo_button {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     gap: 12px;
     padding: 14px 18px;
     font-size: 15px;
@@ -163,5 +163,12 @@
 
   .promo_image img {
     max-width: 90%;
+  }
+
+  .contact_form {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0; /* или нужные вам отступы */
   }
 }

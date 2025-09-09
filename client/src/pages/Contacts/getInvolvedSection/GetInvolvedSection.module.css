@@ -1,0 +1,166 @@
+.container {
+  position: relative;
+  overflow: visible;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* вот это важно */
+  text-align: center;
+
+  background-image: 
+    url("./../../../assets/icons/GetInvolvedSection_background_image_001.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_002.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_003.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_004.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_005.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_Ellipse_001.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_Ellipse_002.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_006.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_007.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_008.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_009.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_image_010.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_Ellipse_003.svg"),
+    url("./../../../assets/icons/GetInvolvedSection_background_Ellipse_004.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 
+    2.7% calc(26px - 26px),
+    11% calc(35px - 26px),
+    18% calc(107px - 26px),
+    20% calc(151px - 26px),
+    22.2% calc(260px - 26px),
+    -50px calc(100% + 50px),
+    -50px calc(100% + 50px),
+    99% calc(26px - 26px),
+    93% calc(35px - 26px),
+    86.5% calc(107px - 26px),
+    84.5% calc(151px - 26px),
+    82% calc(260px - 26px),
+    110% calc(100% + 50px),
+    112% calc(100% + 50px);
+    
+}
+
+.interval_container {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0;
+  background-color: #f6f7f9;
+  align-items: center;
+}
+
+.interval_text {
+  max-width: 427px;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.interval_title {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #24292e;
+  margin-bottom: 32px;
+}
+
+.highlight {
+  color: #02817c;
+  font-weight: 600;
+}
+
+.interval_focus_description {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #24292e;
+  margin-bottom: 16px;
+}
+
+.interval_description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  color: #24292e;
+  margin-bottom: 24px;
+}
+.container_buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.promo_button {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  /* margin-top: 16px; */
+  padding: 18px 22px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow:
+    0px 21px 6px 0px rgba(199, 199, 199, 0%),
+    0px 14px 5px 0px rgba(199, 199, 199, 1%),
+    0px 8px 5px 0px rgba(199, 199, 199, 5%),
+    0px 3px 3px 0px rgba(199, 199, 199, 9%),
+    0px 1px 2px 0px rgba(199, 199, 199, 10%);
+}
+
+.promo_button:hover {
+  background-color: #01716d;
+}
+
+.turquoise_button {
+  background-color: #00a19b;
+  color: white;
+}
+
+.white_button {
+  background-color: white;
+  color: black;
+}
+
+.promo_button img {
+  width: auto;
+  height: auto;
+}
+
+.white_button img {
+  filter: grayscale(1) brightness(0);
+}
+
+@media (max-width: 480px) {
+  .container{
+    background-image: none
+  }
+  
+  .interval_container {
+    padding: 40px 16px;
+  }
+
+  .interval_title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+}
