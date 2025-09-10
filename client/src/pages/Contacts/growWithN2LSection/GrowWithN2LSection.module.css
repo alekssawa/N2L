@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  overflow: visible;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -10,14 +11,11 @@
   /* вот это важно */
   text-align: center;
 
-  background-image:
-    url("./../../../assets/icons/GrowWithN2LSection_background_Ellipse_001.svg"),
-    url("./../../../assets/icons/GrowWithN2LSection_background_Ellipse_002.svg");
+  background-image: url("./../../../assets/icons/GrowWithN2LSection_background_001.svg");
 
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position:
-    left center,
-    right center;
+  background-position: center;
 }
 
 .interval_container {
@@ -112,10 +110,17 @@
   filter: grayscale(1) brightness(0);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   .container {
     background-image: none;
   }
+}
+
+@media (max-width: 480px) {
+  /* .container {
+    background-image: none;
+  } */
+
   .interval_container {
     padding: 40px 16px;
   }

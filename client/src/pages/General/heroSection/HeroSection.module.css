@@ -82,6 +82,86 @@
   height: auto;
 }
 
+@media (max-width: 1440px) {
+
+  .promo_container {
+    padding: 100px 140px;
+  }
+
+  .promo_content {
+    gap: 16px;
+  }
+
+  .promo_title {
+    font-size: 36px;
+  }
+
+  .promo_text {
+    min-width: 360px;
+  }
+
+  .promo_image {
+    max-width: 80%;
+  }
+
+}
+
+
+/* планшеты (до 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    background-image: none;
+  }
+
+  .promo_container {
+    padding: 80px 40px;
+  }
+
+  .promo_content {
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .promo_title {
+    font-size: 36px;
+  }
+
+  .promo_image {
+    max-width: 80%;
+  }
+
+}
+
+/* маленькие планшеты (до 768px) */
+@media (max-width: 768px) {
+
+
+  .promo_container {
+    padding: 60px 24px;
+  }
+
+  .promo_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .promo_title {
+    font-size: 32px;
+  }
+
+  .promo_description {
+    text-align: start;
+    font-size: 18px;
+  }
+
+  .promo_image img {
+    max-width: 90%;
+  }
+
+}
+
 @media (max-width: 480px) {
   .promo_container {
     padding: 40px 16px;

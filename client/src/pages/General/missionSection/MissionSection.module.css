@@ -1,16 +1,27 @@
 .membership_section {
-  padding: 100px 24px /*calc(79.5px * 3)*/;
+  padding: 100px 24px
+    /*calc(79.5px * 3)*/
+  ;
   background-color: #f6f7f9;
   width: 100%;
+
+  background-image: url("./../../../assets/icons/MissionSection_background_001.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center 28%;
 }
 
 .container {
+  /* overflow: visible; */
   max-width: 1280px;
   margin: 0 auto;
   /* центрирует */
   width: 100%;
   position: relative;
   /* padding: 0 24px; */
+
+
 }
 
 .membership_header {
@@ -58,9 +69,8 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding-bottom: 20px;
-  max-width: calc(
-    305px * 4 + 20px * 3
-  ); /* примерная ширина под 4 блока и gap */
+  max-width: calc(305px * 4 + 20px * 3);
+  /* примерная ширина под 4 блока и gap */
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -244,40 +254,207 @@
   padding: 16px 0;
 }
 
-.promo_Ellipse_003 {
-  position: absolute;
-  top: -31px;
-  /* right: 0; */
-  left: 50%;
-  transform: translateX(-50%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-  user-select: none;
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {
+  .membership_section {
+    padding: 60px 24px;
+  }
+
+  .firstRow {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: calc(305px * 3 + 20px);
+  }
+
+  .secondRow {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: calc(305px * 3 + 20px);
+  }
+
+  .blockShadow {
+    max-width: 100%;
+  }
+
+  .blockShadowWide {
+    max-width: 100%;
+  }
+
+  .block .title3 img,
+  .blockWide .title3 img {
+    padding-right: 4px;
+  }
+
+  .block .promoSection3_interval,
+  .blockWide .promoSection3_interval {
+    padding: 12px 0;
+  }
+
+  .block .title2 h3,
+  .blockWide .title2 h3 {
+    font-size: clamp(22px, 1vw + 16px, 32px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title1 */
+  .block .title1 h3,
+  .blockWide .title1 h3 {
+    font-size: clamp(16px, 1.5vw + 12px, 20px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title3 */
+  .block .title3 h3,
+  .blockWide .title3 h3 {
+    font-size: clamp(10px, 0.8vw + 9px, 14px);
+    line-height: 1.4;
+  }
+
+  /* lowlight внутри title2 */
+  .block .title2 h3 .lowlight,
+  .blockWide .title2 h3 .lowlight {
+    font-size: clamp(10px, 0.8vw + 9px, 12px);
+  }
+
+  /* Абзацы */
+  .block .title1 p,
+  .blockWide .title1 p,
+  .block .title2 p,
+  .blockWide .title2 p,
+  .block .title3 p,
+  .blockWide .title3 p {
+    font-size: clamp(8px, 0.8vw + 5px, 12px);
+    line-height: 1.3;
+    padding-top: 4px;
+  }
 }
 
-.promo_Decorative_Element_001 {
-  position: absolute;
-  top: 25%;
-  /* transform: translateY(-50%); */
-  left: -6%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-  user-select: none;
+@media (max-width: 768px) {
+  .membership_section {
+    padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .description {
+    font-size: 16px;
+    /* margin: 0 auto 32px auto; */
+  }
+
+  .firstRow,
+  .secondRow {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: calc(305px * 2 + 20px);
+  }
+
+  .blockShadow {
+    max-width: 100%;
+  }
+
+  .blockShadowWide {
+    max-width: 100%;
+  }
+
+  .block .title3 img,
+  .blockWide .title3 img {
+    padding-right: 8px;
+  }
+
+  .block .promoSection3_interval,
+  .blockWide .promoSection3_interval {
+    padding: 16px 0;
+  }
+
+  .block .title2 h3,
+  .blockWide .title2 h3 {
+    font-size: clamp(22px, 1vw + 16px, 32px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title1 */
+  .block .title1 h3,
+  .blockWide .title1 h3 {
+    font-size: clamp(16px, 1.5vw + 12px, 20px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title3 */
+  .block .title3 h3,
+  .blockWide .title3 h3 {
+    font-size: clamp(10px, 0.8vw + 9px, 14px);
+    line-height: 1.4;
+  }
+
+  /* lowlight внутри title2 */
+  .block .title2 h3 .lowlight,
+  .blockWide .title2 h3 .lowlight {
+    font-size: clamp(10px, 0.8vw + 9px, 12px);
+  }
+
+  /* Абзацы */
+  .block .title1 p,
+  .blockWide .title1 p,
+  .block .title2 p,
+  .blockWide .title2 p,
+  .block .title3 p,
+  .blockWide .title3 p {
+    font-size: clamp(8px, 0.8vw + 5px, 12px);
+    line-height: 1.3;
+    padding-top: 8px;
+  }
 }
 
-.promo_Decorative_Element_002 {
-  position: absolute;
-  top: 25%;
-  right: -6%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-  user-select: none;
+@media (max-width: 630px) {
+    .block .title3 img,
+  .blockWide .title3 img {
+    padding-right: 4px;
+  }
+
+  .block .promoSection3_interval,
+  .blockWide .promoSection3_interval {
+    padding: 12px 0;
+  }
+
+  .block .title2 h3,
+  .blockWide .title2 h3 {
+    font-size: clamp(22px, 1vw + 16px, 32px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title1 */
+  .block .title1 h3,
+  .blockWide .title1 h3 {
+    font-size: clamp(16px, 1.5vw + 12px, 20px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title3 */
+  .block .title3 h3,
+  .blockWide .title3 h3 {
+    font-size: clamp(10px, 0.8vw + 10px, 14px);
+    line-height: 1.4;
+  }
+
+  /* lowlight внутри title2 */
+  .block .title2 h3 .lowlight,
+  .blockWide .title2 h3 .lowlight {
+    font-size: clamp(10px, 0.8vw + 10px, 12px);
+  }
+
+  /* Абзацы */
+  .block .title1 p,
+  .blockWide .title1 p,
+  .block .title2 p,
+  .blockWide .title2 p,
+  .block .title3 p,
+  .blockWide .title3 p {
+    font-size: clamp(8px, 0.8vw + 6px, 12px);
+    line-height: 1.3;
+    padding-top: 4px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -292,7 +469,6 @@
 
   .description {
     font-size: 16px;
-    /* margin: 0 auto 32px auto; */
   }
 
   .firstRow,
@@ -311,11 +487,5 @@
 
   .blockShadowWide {
     max-width: 100%;
-  }
-
-  .promo_Ellipse_003,
-  .promo_Decorative_Element_001,
-  .promo_Decorative_Element_002 {
-    display: none;
   }
 }

@@ -2,7 +2,7 @@
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 }
 
 .promo_container {
@@ -130,6 +130,89 @@
   background-color: #fbeeb5;
 }
 
+@media (max-width: 1440px) {
+  .promo_container {
+    padding: 100px 140px;
+  }
+
+  .promo_content {
+    gap: 16px;
+  }
+
+  .promo_title {
+    font-size: 36px;
+  }
+
+  .promo_image {
+    max-width: 80%;
+  }
+
+  .contact_form {
+    width: 100%;
+    max-width: 600px;
+    min-width: 365px;
+  }
+}
+
+
+/* планшеты (до 1024px) */
+@media (max-width: 1024px) {
+  .promo_container {
+    padding: 80px 40px;
+  }
+
+  .promo_content {
+    gap: 32px;
+  }
+
+  .promo_title {
+    font-size: 36px;
+  }
+
+  .promo_image {
+    max-width: 60%;
+  }
+
+  .contact_form {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+/* маленькие планшеты (до 768px) */
+@media (max-width: 768px) {
+  .promo_container {
+    padding: 60px 24px;
+  }
+
+  .promo_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .promo_title {
+    justify-content: center;
+    font-size: 32px;
+  }
+
+  .promo_description {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .promo_image img {
+    max-width: 50%;
+  }
+
+  .contact_form {
+    max-width: 100%;
+  }
+}
+
+/* телефоны (до 480px) */
 @media (max-width: 480px) {
   .promo_container {
     padding: 40px 16px;
@@ -169,6 +252,7 @@
     width: 100%;
     max-width: 100%;
     min-width: 0;
-    padding: 0; /* или нужные вам отступы */
+    padding: 0;
+    /* или нужные вам отступы */
   }
 }

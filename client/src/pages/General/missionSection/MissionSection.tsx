@@ -2,23 +2,11 @@ import styles from "./MissionSection.module.css";
 
 import promoSection3_interval from "./../../../assets/icons/promoSection3_interval.svg";
 import promoSection3_Check from "./../../../assets/icons/promoSection3_Check.svg";
-import Promo_Decorative_Element_001 from "./../../../assets/icons/Promo_Decorative_Element_001.svg";
-import Promo_Decorative_Element_002 from "./../../../assets/icons/Promo_Decorative_Element_002.svg";
-import Promo_Ellipse_003 from "./../../../assets/icons/Promo_Ellipse_003.svg";
 
 const PromoSection3 = () => {
   return (
     <section className={styles.membership_section}>
       <div className={styles.container}>
-        <img className={styles.promo_Ellipse_003} src={Promo_Ellipse_003}></img>
-        <img
-          className={styles.promo_Decorative_Element_001}
-          src={Promo_Decorative_Element_001}
-        ></img>
-        <img
-          className={styles.promo_Decorative_Element_002}
-          src={Promo_Decorative_Element_002}
-        ></img>
         <div className={styles.membership_header}>
           <h2 className={styles.title}>
             <span className={styles.highlight}>Membership</span> Tiers
