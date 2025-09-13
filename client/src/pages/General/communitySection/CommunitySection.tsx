@@ -6,7 +6,6 @@ import Realm_Icon_003 from "./../../../assets/icons/Realm_Icon_003.svg";
 
 import promo_arrow_right from "./../../../assets/icons/promo_arrow_right.svg";
 
-
 const PromoSection4 = () => {
   return (
     <section className={styles.realm_section}>

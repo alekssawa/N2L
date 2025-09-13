@@ -2,6 +2,12 @@
   padding: 100px 24px /*calc(79.5px * 3)*/;
   background-color: white;
   width: 100%;
+
+  background-image: url("./../../../assets/icons/Algorithm_background_001.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center 100%;
 }
 
 .container {
@@ -42,7 +48,7 @@
   font-weight: 400;
   line-height: 1.6;
   color: #24292e;
-  max-width: 670px;
+  max-width: 378px;
   margin-bottom: 24px;
 }
 
@@ -51,8 +57,10 @@
   top: 0;
   right: 0;
   display: flex;
+  width: 219px;
   align-items: center;
-  gap: 32px;
+  justify-content: space-between;
+  /* gap: 32px; */
   padding: 18px 22px;
   background-color: #00a19b;
   border: none;
@@ -72,44 +80,65 @@
   width: 12px;
   height: auto;
 }
-
-.ecosystem_cards {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  width: 100%;
+.algorithm_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
 }
 
-.card {
-  /* max-width: 630px; */
-  width: 100%;
-  border-radius: 12px;
+.algorithm_box {
+  max-width: 632px;
+  border-radius: 20px;
   background-color: #f6f7f9;
-  padding: 32px;
+  text-align: center;
+  padding: 16px 0;
 }
 
-.card img {
-  border-radius: 8px;
-  width: 566px;
-  height: auto;
+.algorithm_line {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #000;
+  width: auto;
+  object-fit: contain;
+  user-select: none;
 }
 
-.card h3 {
-  padding-top: 24px;
-  font-family: "Inter", sans-serif;
+.algorithm_box_percent {
+  font-family: "Rethink Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.4;
-  color: #24292e;
+  color: #02817c;
 }
 
-.card p {
-  padding-top: 16px;
-  max-width: 560px;
-
+.algorithm_box_title {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
+  color: #24292e;
+  max-width: 190px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.algorithm_Formula {
+  font-family: "Rethink Sans", sans-serif;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #24292e;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.algorithm_Formula .highlight {
+  font-weight: 600;
   color: #24292e;
 }
 
@@ -117,11 +146,23 @@
   .title {
     font-size: 36px;
   }
+
 }
 
 @media (max-width: 1024px) {
   .title {
     font-size: 42px;
+    text-align: center; /* центрируем текст */
+    margin-left: auto; /* выравнивание самого блока */
+    margin-right: auto; /* по центру */
+  }
+
+
+  .description{
+    text-align: center; /* центрируем текст */
+    margin-left: auto; /* выравнивание самого блока */
+    margin-right: auto; /* по центру */
+    max-width: 800px;
   }
 
   .cta_button {

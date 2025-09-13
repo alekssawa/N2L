@@ -83,7 +83,6 @@
 }
 
 @media (max-width: 1440px) {
-
   .promo_container {
     padding: 100px 140px;
   }
@@ -103,9 +102,7 @@
   .promo_image {
     max-width: 80%;
   }
-
 }
-
 
 /* планшеты (до 1024px) */
 @media (max-width: 1024px) {
@@ -129,13 +126,10 @@
   .promo_image {
     max-width: 80%;
   }
-
 }
 
 /* маленькие планшеты (до 768px) */
 @media (max-width: 768px) {
-
-
   .promo_container {
     padding: 60px 24px;
   }
@@ -159,7 +153,6 @@
   .promo_image img {
     max-width: 90%;
   }
-
 }
 
 @media (max-width: 480px) {

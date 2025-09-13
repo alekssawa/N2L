@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import General from "./pages/General/General";
 import Shop from "./pages/Shop/Shop";
 import Contacts from "./pages/Contacts/Contacts";
+import Algorithm from "./pages/Algorithm/Algorithm";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/N2L/" element={<General />} />
-        {/* <Route path="/N2L/Algorithm" element={<Algorithm />} /> */}
+        <Route path="/N2L/Algorithm" element={<Algorithm />} />
         <Route path="/N2L/Shop" element={<Shop />} />
         <Route path="/N2L/Contacts" element={<Contacts />} />
       </Routes>
