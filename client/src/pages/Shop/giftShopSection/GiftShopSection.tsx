@@ -1,9 +1,5 @@
 import Shop_giftCard_001 from "./../../../assets/icons/Shop_giftCard_001.svg";
 import Shop_merchCard_001 from "./../../../assets/icons/Shop_merchCard_001.svg";
-import Shop_Background_Ellipse_Left_001 from "./../../../assets/icons/Shop_Background_Ellipse_Left_001.svg";
-import Shop_Background_Ellipse_Left_002 from "./../../../assets/icons/Shop_Background_Ellipse_Left_002.svg";
-import Shop_Background_Ellipse_Right_001 from "./../../../assets/icons/Shop_Background_Ellipse_Right_001.svg";
-import Shop_Background_Ellipse_Right_002 from "./../../../assets/icons/Shop_Background_Ellipse_Right_002.svg";
 
 import styles from "./GiftShopSection.module.css";
 
@@ -11,24 +7,6 @@ const GiftShopSection = () => {
   return (
     <section className={styles.ecosystem_section}>
       <div className={styles.container}>
-        <div className={styles.GiftShopSection_picture_background_container}>
-          <img
-            className={styles.ellipse1}
-            src={Shop_Background_Ellipse_Left_001}
-          />
-          <img
-            className={styles.ellipse2}
-            src={Shop_Background_Ellipse_Left_002}
-          />
-          <img
-            className={styles.ellipse4}
-            src={Shop_Background_Ellipse_Right_002}
-          />
-          <img
-            className={styles.ellipse3}
-            src={Shop_Background_Ellipse_Right_001}
-          />
-        </div>
         <div className={styles.ecosystem_content}>
           <div className={styles.ecosystem_cards}>
             <div className={styles.cardBlock}>

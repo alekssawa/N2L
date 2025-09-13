@@ -459,11 +459,13 @@
   }
 
   .title {
+    text-align: center;
     font-size: 28px;
     line-height: 1.3;
   }
 
   .description {
+    text-align: center;
     font-size: 16px;
   }
 
@@ -483,5 +485,53 @@
 
   .blockShadowWide {
     max-width: 100%;
+  }
+
+  .block .title3 img,
+  .blockWide .title3 img {
+    padding-right: 8px;
+  }
+
+  .block .promoSection3_interval,
+  .blockWide .promoSection3_interval {
+    padding: 16px 0;
+  }
+
+  .block .title2 h3,
+  .blockWide .title2 h3 {
+    font-size: clamp(22px, 1vw + 16px, 32px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title1 */
+  .block .title1 h3,
+  .blockWide .title1 h3 {
+    font-size: clamp(16px, 1.5vw + 12px, 20px);
+    line-height: 1.4;
+  }
+
+  /* Заголовок title3 */
+  .block .title3 h3,
+  .blockWide .title3 h3 {
+    font-size: clamp(10px, 0.8vw + 10px, 14px);
+    line-height: 1.4;
+  }
+
+  /* lowlight внутри title2 */
+  .block .title2 h3 .lowlight,
+  .blockWide .title2 h3 .lowlight {
+    font-size: clamp(12px, 0.8vw + 10px, 12px);
+  }
+
+  /* Абзацы */
+  .block .title1 p,
+  .blockWide .title1 p,
+  .block .title2 p,
+  .blockWide .title2 p,
+  .block .title3 p,
+  .blockWide .title3 p {
+    font-size: clamp(12px, 0.8vw + 6px, 12px);
+    line-height: 1.3;
+    padding-top: 4px;
   }
 }

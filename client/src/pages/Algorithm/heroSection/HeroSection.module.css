@@ -146,7 +146,6 @@
   .title {
     font-size: 36px;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -157,8 +156,7 @@
     margin-right: auto; /* по центру */
   }
 
-
-  .description{
+  .description {
     text-align: center; /* центрируем текст */
     margin-left: auto; /* выравнивание самого блока */
     margin-right: auto; /* по центру */
@@ -185,19 +183,6 @@
   .description {
     font-size: 15px;
   }
-  .ecosystem_cards {
-    flex-direction: column;
-  }
-
-  /* .card h3 {
-    font-size: 16px;
-    line-height: 1.3;
-  }
-
-  .card p {
-    line-height: 1.3;
-    font-size: 12px;
-  } */
 }
 
 @media (max-width: 480px) {
@@ -229,17 +214,11 @@
     font-size: 15px;
   }
 
-  .ecosystem_cards {
-    flex-direction: column;
+  .ecosystem_section {
+    background-image: none;
   }
 
-  .card h3 {
-    font-size: 16px;
-    line-height: 1.3;
-  }
-
-  .card p {
-    line-height: 1.3;
-    font-size: 12px;
+  .algorithm_Formula {
+    margin-bottom: 0px;
   }
 }

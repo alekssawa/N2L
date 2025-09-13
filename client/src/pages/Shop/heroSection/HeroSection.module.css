@@ -21,6 +21,7 @@
 .promo_text {
   flex: 1;
   min-width: 320px;
+  max-width: 550px;
 }
 
 .promo_title {
@@ -103,6 +104,38 @@
   background-color: #fbeeb5;
 }
 
+@media (max-width: 1440px) {
+  .title {
+    font-size: 36px;
+  }
+  .promo_image {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cta_button {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 18px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 480px) {
   .promo_container {
     padding: 40px 16px;
@@ -114,6 +147,7 @@
   }
 
   .promo_title {
+    justify-content: center; /* по горизонтали */
     font-size: 28px;
     line-height: 1.3;
   }

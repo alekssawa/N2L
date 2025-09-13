@@ -2,6 +2,12 @@
   padding: 100px 24px /*calc(79.5px * 3)*/;
   background-color: #f6f7f9;
   width: 100%;
+
+  background-image: url("./../../../assets/icons/Shop_background_001.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center 100%;
 }
 
 .container {
@@ -93,34 +99,69 @@
   color: #24292e;
 }
 
-.GiftShopSection_picture_background_container {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
+@media (max-width: 1440px) {
+  .title {
+    font-size: 36px;
+  }
 }
 
-.ellipse1 {
-  position: absolute;
-  bottom: -68px;
-  left: -60px;
+@media (max-width: 1024px) {
+  .ecosystem_section {
+    padding: 60px 24px;
+  }
+
+  .ecosystem_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    min-width: 644px;
+  }
+
+  .cardBlock h2 {
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 42px;
+    text-align: center; /* центрируем текст */
+    margin-left: auto; /* выравнивание самого блока */
+    margin-right: auto; /* по центру */
+  }
+
+  .description {
+    text-align: center; /* центрируем текст */
+    margin-left: auto; /* выравнивание самого блока */
+    margin-right: auto; /* по центру */
+    max-width: 800px;
+  }
+
+  .cta_button {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 18px;
+    font-size: 15px;
+  }
 }
-.ellipse2 {
-  position: absolute;
-  bottom: -68px;
-  left: 0px;
-}
-.ellipse3 {
-  position: absolute;
-  bottom: -68px;
-  right: 0px;
-}
-.ellipse4 {
-  position: absolute;
-  bottom: -68px;
-  right: -60px;
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .card {
+    min-width: 444px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -154,6 +195,14 @@
 
   .ecosystem_cards {
     flex-direction: column;
+  }
+
+  .cardBlock h2 {
+    text-align: center;
+  }
+
+  .card {
+    min-width: 380px;
   }
 
   .card h3 {
