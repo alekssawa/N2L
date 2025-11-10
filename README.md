@@ -22,7 +22,7 @@ A modern web application built with React and Vite, designed to provide an engag
 - 🔍 Algorithm section showcasing complex computations  
 - 📧 Contact form integrated with backend services  
 - 🌟 Community section to foster engagement  
-- 💰 Shop area featuring gift items
+- 💰 Shop area featuring gift items 
 
 ---
 
