@@ -2,7 +2,7 @@
 
 ### 🎨 Designer
 <a href="https://github.com/SDU123321">
-  <img src="https://contrib.rocks/image?repo=alekssawa/N2L&max=1&anon=0&user=SDU123321" width="50" alt="Designer"/>
+  <img src="https://avatars.githubusercontent.com/u/133858898?v=4" width="50" alt="Designer"/>
 </a>
 
 ### 💻 Frontend Developer
